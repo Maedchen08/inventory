@@ -1,0 +1,15 @@
+package com.enigma.coba.model.stocks;
+
+import com.enigma.coba.model.PageSearch;
+
+public class StockSearch extends PageSearch {
+    private Integer quantity;
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+}

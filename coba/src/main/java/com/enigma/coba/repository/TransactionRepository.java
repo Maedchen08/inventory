@@ -1,0 +1,9 @@
+package com.enigma.coba.repository;
+
+import com.enigma.coba.entities.Transaction;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+
+public interface TransactionRepository extends JpaRepository<Transaction, Integer> {
+}
